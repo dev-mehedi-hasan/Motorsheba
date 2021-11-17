@@ -1,0 +1,23 @@
+.aiz-sidebar.left, .aiz-side-nav-logo-wrap{
+	    background-color: #ffffff;
+}
+.aiz-side-nav-list .aiz-side-nav-link, .aiz-side-nav-list .aiz-side-nav-icon {
+    color: #111827;
+}
+.aiz-side-nav-list .aiz-side-nav-link:hover, .aiz-side-nav-list .aiz-side-nav-link.active, .aiz-side-nav-list .aiz-side-nav-link.level-2-active, .aiz-side-nav-list .aiz-side-nav-link.level-3-active{
+	background-color: #ED2024;
+}
+.aiz-side-nav-list .aiz-side-nav-link:hover .aiz-side-nav-icon, .aiz-side-nav-list .aiz-side-nav-link.active .aiz-side-nav-icon, .aiz-side-nav-list .aiz-side-nav-link.level-2-active .aiz-side-nav-icon, .aiz-side-nav-list .aiz-side-nav-link.level-3-active .aiz-side-nav-icon{
+	color: #ffffff !important;
+}
+.aiz-side-nav-list .level-2 .aiz-side-nav-link:hover:after, .aiz-side-nav-list .level-3 .aiz-side-nav-link:hover:after{
+	background: #ffffff !important;
+	border: 1px solid #ffffff;
+}
+.aiz-side-nav-list .level-2 .aiz-side-nav-link.active:after, .aiz-side-nav-list .level-3 .aiz-side-nav-link-active:after{
+	background: #ffffff !important;
+	border: 1px solid #ffffff;
+}
+.short-description .note-editor.note-frame .note-editing-area .note-editable{
+    height: 130px !important;
+}

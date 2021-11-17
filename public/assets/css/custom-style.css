@@ -1,0 +1,222 @@
+/*your custom css goes here*/
+@media (max-width: 767px){
+    .h3{
+        font-size: 1.25rem;
+    }
+    .card-columns {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+@media (min-width: 768px){
+    .main-menu .first-ul li:first-child a {
+        padding:1em 1em 1em 0 !important;
+      }
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+@media (min-width: 1200px){
+    .container {
+        max-width: 1150px;
+    }
+    .aiz-category-menu .japanese-parts-category{
+        height: 242px;
+    }
+    .aiz-category-menu .sub-cat-menu {
+        height: 298px;
+    }
+    /* .homepage-slider.aiz-carousel .slick-arrow {
+        width: 25px;
+        height: 80px;
+        border-radius: 5px;
+    } */
+    /* .featured-category-carousel li img{
+        height: 100px;
+    } */
+    .featured_item__video {
+        height: 280px;
+    }
+    .quick-links img{
+        height: 72px;
+    }
+
+}
+@media (min-width: 1300px){
+    .container {
+        max-width: 1250px;
+    }
+    .aiz-category-menu .japanese-parts-category{
+        height: 265px;
+    }
+    .aiz-category-menu .sub-cat-menu {
+        height: 323px;
+    }
+    .featured_item__video {
+        height: 310px;
+    }
+    .quick-links img{
+        height: 82px;
+    }
+}
+@media (min-width: 1400px){
+    .container {
+        max-width: 1350px;
+    }
+    .aiz-category-menu .japanese-parts-category{
+        height: 292px;
+    }
+    .aiz-category-menu .sub-cat-menu {
+        height: 349px;
+    }
+    .featured_item__video {
+        height: 330px;
+    }
+    .quick-links img{
+        height: 88px;
+    }
+}
+@media (min-width: 1500px){
+    .container {
+        max-width: 1450px;
+    }
+    .aiz-category-menu .japanese-parts-category{
+        height: 318px;
+    }
+    .aiz-category-menu .sub-cat-menu {
+        height: 374px;
+    }
+    .featured_item__video {
+        height: 335px;
+    }
+    .quick-links img{
+        height: 90px;
+    }
+}
+@media (min-width: 1600px){
+    .container {
+        max-width: 1550px;
+    }
+    /* .homepage-slider img{
+        height: 400px;
+    } */
+    .aiz-category-menu .japanese-parts-category{
+        height: 345px;
+    }
+    .aiz-category-menu .sub-cat-menu {
+        height: 400px;
+    }
+    .featured_item__video {
+        height: 350px;
+    }
+    .quick-links img{
+        height: 95px;
+    }
+}
+
+a.text-primary:hover {
+    color: #111827!important;
+}
+
+.aiz-cookie-alert {
+    width: 100% !important;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: none;
+    z-index: 1070;
+}
+.aiz-cookie-alert p{
+	margin: 0 !important;
+}
+.slick-arrow{
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50em;
+    border: 0;
+    box-shadow: 0 0 1px 1px rgb(20 23 28 / 10%), 0 3px 1px 0 rgb(20 23 28 / 10%);
+    font-size: 15px;
+    line-height: 40px;
+    padding: 0;
+    text-align: center;
+}
+.slick-arrow:hover{
+    color: #ffffff;
+    background: #111827;
+}
+.all-brand-carousel .slick-prev{
+    left: 0px;
+}
+.all-brand-carousel .slick-next{
+    right: 0px;
+}
+.all-brand-carousel img{
+    object-fit: contain;
+}
+.featured-category-carousel img{
+    object-fit: contain;
+}
+.bootstrap-select .dropdown-toggle {
+    color: #111827;
+}
+.featured_item__video {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.featured_item__video {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.play-btn{
+    display: inline-block;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 3px solid;
+    border-radius: 50%;
+}
+.aiz-category-menu .japanese-parts-category::-webkit-scrollbar-thumb, .uppy-Dashboard-files::-webkit-scrollbar-thumb, .bootstrap-select .dropdown-menu .inner::-webkit-scrollbar-thumb {
+    background: #ee323f;
+    border-radius: 3px;
+}
+.frontend-footer-copyright p{
+    margin: 0;
+}
+.car-parts-search .set-bg{
+    background-size: cover;
+    background-image: url('https://motorsheba.com/public/uploads/all/ksEEsV1OjaVnjXwOZMtauQRQahgG760TVe5ZRvB4.jpg');
+}
+.top-101 {
+    top: calc(100% + 1em);
+}
+.hover-category-menu .all-category::before{
+    display: none !important;
+}
+.product-pagination .pagination{
+    justify-content: center;
+}
+.nav-tabs{
+    border-bottom: none;
+}
+.border-white{
+    border-color: #ffffff !important;
+}
